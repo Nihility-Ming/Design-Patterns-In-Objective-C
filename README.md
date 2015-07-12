@@ -1,4 +1,5 @@
 ##Design Patterns In Objective-C
+
 In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design. A design pattern isn't a finished design that can be transformed directly into code. It is a description or template for how to solve a problem that can be used in many different situations.
 ---
 
@@ -65,7 +66,7 @@ This design patterns is all about Class's objects communication. Behavioral patt
 * Null Object
   Designed to act as a default value of an object
 * Observer
-A way of notifying change to a number of classes
+  A way of notifying change to a number of classes
 * State
   Alter an object's behavior when its state changes
 * Strategy

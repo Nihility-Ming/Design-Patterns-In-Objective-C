@@ -13,6 +13,10 @@ Objective-C的设计模式
 
 ## 设计模式一览表
 
+- 创建型模式主要用于描述如何创建对象
+- 结构型模式主要用于描述如何实现类或对象的组合
+- 行为型模式主要用于描述类或对象怎样交互以及怎样分配职责
+
 <table style="text-align:center">
     <tr>
     <th>类型</th>
@@ -218,4 +222,4 @@ Objective-C的设计模式
 
 ## License
 
-DesignPatterns is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
+Design Patterns In Objective-C is available under the MIT license. See the [LICENSE](LICENSE) file for more info.

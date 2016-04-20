@@ -9,6 +9,12 @@
 #import "Command.h"
 #import "BoardScreen.h"
 
+@interface Command()
+
+@property (strong, nonatomic, readwrite) BoardScreen *boardScreen;
+
+@end
+
 @implementation Command
 
 - (instancetype)init {

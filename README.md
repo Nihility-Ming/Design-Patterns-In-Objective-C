@@ -1,6 +1,8 @@
 Objective-C的设计模式
 ==============================
 
+![designpatterns](./images/designpatterns.jpg)
+
 设计模式(Design Pattern)是一套被反复使用、多数人知晓的、经过分类编目的、代码设计经验的总结，使用设计模式是为了可重用代码、让代码更容易被他人理解并且保证代码可靠性。
 
 在软件工程中，设计模式是设计中经常出现的问题的一种通用的、可重复利用的解决问题的方案。
@@ -219,7 +221,6 @@ Objective-C的设计模式
  22. **解释器模式（Interpreter）**，给定一个语言，定义它的文法的一种表示，并定义一个解释器，这个解释器使用该表示来解释语言中的句子。
  23. **访问者模式（Visitor）**，表示一个作用于某对象结构中的各元素的操作。它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作。
  
-
 ## License
 
 Design Patterns In Objective-C is available under the MIT license. See the [LICENSE](LICENSE) file for more info.

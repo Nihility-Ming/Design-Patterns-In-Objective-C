@@ -18,6 +18,6 @@
 
 @interface Command : NSObject
 
-@property (strong, nonatomic) BoardScreen *boardScreen;
+@property (strong, nonatomic, readonly) BoardScreen *boardScreen;
 
 @end

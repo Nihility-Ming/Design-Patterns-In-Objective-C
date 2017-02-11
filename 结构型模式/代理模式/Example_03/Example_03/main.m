@@ -21,6 +21,8 @@ int main(int argc, const char * argv[]) {
         // 使用代理类后：
         id<Image> bigImageProxy = [[BigImageProxy alloc] init];
         [bigImageProxy print];
+        
+        
     }
     return 0;
 }

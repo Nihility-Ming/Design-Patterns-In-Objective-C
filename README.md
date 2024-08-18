@@ -19,186 +19,44 @@ Objective-C的设计模式
 - 结构型模式主要用于描述如何实现类或对象的组合
 - 行为型模式主要用于描述类或对象怎样交互以及怎样分配职责
 
-<table style="text-align:center">
-    <tr>
-    <th>类型</th>
-    <th>模式名称</th>
-    <th>学习难度</th>
-    <th>使用频率</th>
-    </tr>
-    
-    <tr>
-    <td rowspan="6">
-    <a href="./创建型模式"><p>创建型模式<br />Creational Pattern</p></a>
-    </td>
-    <td><a href="./创建型模式/单例模式"><p>单例模式<br />Singleton Pattern</p></a></td>
-    <td>★☆☆☆☆</td>
-    <td>★★★★☆</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./创建型模式/简单工厂模式"><p>简单工厂模式<br />Simple Factory Pattern</p></a>
-    </td>
-    <td>★★☆☆☆</td>
-    <td>★★★☆☆</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./创建型模式/工厂方法模式"><p>工厂方法模式<br />Factory Method Pattern</p></a>
-    </td>
-    <td>★★☆☆☆</td>
-    <td>★★★★★</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./创建型模式/抽象工厂模式"><p>抽象工厂模式<br />Abstract Factory Pattern</p></a>
-    </td>
-    <td>★★★★☆</td>
-    <td>★★★★★</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./创建型模式/原型模式"><p>原型模式<br />Prototype Pattern</p></a>
-    </td>
-    <td>★★★☆☆</td>
-    <td>★★★☆☆</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./创建型模式/建造者模式"><p>建造者模式<br />Builder Pattern</p></a>
-    </td>
-    <td>★★★★☆</td>
-    <td>★★☆☆☆</td>
-    </tr>
-    
-    <tr>
-    <td rowspan="7">
-        <a href="./结构型模式"><p>结构型模式<br />Structural Pattern</p></a>
-    </td>
-    <td>
-        <a href="./结构型模式/适配器模式"><p>适配器模式<br />Adapter Pattern</p></a>
-    </td>
-    <td>★★☆☆☆</td>
-    <td>★★★★☆</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./结构型模式/桥接模式"><p>桥接模式<br />Bridge Pattern</p></a>
-    </td>
-    <td>★★★☆☆</td>
-    <td>★★★☆☆</td>
-    </tr>
-    
-    <tr>
-    <td>
-        <a href="./结构型模式/组合模式"><p>组合模式<br />Composite  Pattern</p></a>
-    </td>
-    <td>★★★☆☆</td>
-    <td>★★★★☆</td>
-    </tr>
-    
-    <tr>
-    <td>
-         <a href="./结构型模式/装饰模式"><p>装饰模式<br />Decorator  Pattern</p></a>
-    </td>
-    <td>★★★☆☆</td>
-    <td>★★★☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./结构型模式/外观模式"><p>外观模式<br />Façade  Pattern</p></a></td>
-    <td>★☆☆☆☆</td>
-    <td>★★★★★</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./结构型模式/享元模式"><p>享元模式<br />Flyweight  Pattern</p></a></td>
-    <td>★★★★☆</td>
-    <td>★☆☆☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./结构型模式/代理模式"><p>代理模式<br />Proxy  Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★★★☆</td>
-    </tr>
-    
-    <tr>
-    <td rowspan="11">
-    <a href="./行为型模式"><p>行为型模式<br />Behavioral Pattern</p></a>
-    </td>
-    <td><a href="./行为型模式/责任链模式"><p>责任链模式<br />Chain  of Responsibility Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★☆☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/命令模式"><p>命令模式<br />Command  Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★★★☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/解释器模式"><p>解释器模式<br />Interpreter  Pattern</p></a></td>
-    <td>★★★★★</td>
-    <td>★☆☆☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/迭代器模式"><p>迭代器模式<br />Iterator  Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★★★★</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/中介者模式"><p>中介者模式<br />Mediator  Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★☆☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/备忘录模式"><p>备忘录模式<br />Memento  Pattern</p></a></td>
-    <td>★★☆☆☆</td>
-    <td>★★☆☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/观察者模式"><p>观察者模式<br />Observer  Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★★★★</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/状态模式"><p>状态模式<br />State  Pattern</p></a></td>
-    <td>★★★☆☆</td>
-    <td>★★★☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/策略模式"><p>策略模式<br />Strategy  Pattern</p></a></td>
-    <td>★☆☆☆☆</td>
-    <td>★★★★☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/模板方法模式"><p>模板方法模式<br />Template  Method Pattern</p></a></td>
-    <td>★★☆☆☆</td>
-    <td>★★★☆☆</td>
-    </tr>
-    
-    <tr>
-    <td><a href="./行为型模式/访问者模式"><p>访问者模式<br />Visitor  Pattern</p></a></td>
-    <td>★★★★☆</td>
-    <td>★☆☆☆☆</td>
-    </tr>
-    
-</table>
+### 创造型模式
+
+| 模式名称 | 学习难度 | 使用频率 |
+| --- | --- | --- |
+| [单例模式 Singleton Pattern](./创建型模式/单例模式) | ★☆☆☆☆ | ★★★★☆ |
+| [简单工厂模式 Simple Factory Pattern](./创建型模式/简单工厂模式) | ★★☆☆☆ | ★★★☆☆ |
+| [工厂方法模式 Factory Method Pattern](./创建型模式/工厂方法模式) | ★★☆☆☆ | ★★★★★ |
+| [抽象工厂模式 Abstract Factory Pattern](./创建型模式/抽象工厂模式) | ★★★★☆ | ★★★★★ |
+| [原型模式 Prototype Pattern](./创建型模式/原型模式) | ★★★☆☆ | ★★★☆☆ |
+| [建造者模式 Builder Pattern](./创建型模式/建造者模式) | ★★★★☆ | ★★☆☆☆ |
+
+### 结构型模式
+
+| 模式名称 | 学习难度 | 使用频率 |
+| --- | --- | --- |
+| [适配器模式 Adapter Pattern](./结构型模式/适配器模式) | ★★☆☆☆ | ★★★★☆ |
+| [桥接模式 Bridge Pattern](./结构型模式/桥接模式) | ★★★☆☆ | ★★★☆☆ |
+| [组合模式 Composite Pattern](./结构型模式/组合模式) | ★★★☆☆ | ★★★★☆ |
+| [装饰模式 Decorator Pattern](./结构型模式/装饰模式) | ★★★☆☆ | ★★★☆☆ |
+| [外观模式 Façade Pattern](./结构型模式/外观模式) | ★☆☆☆☆ | ★★★★★ |
+| [享元模式 Flyweight Pattern](./结构型模式/享元模式) | ★★★★☆ | ★☆☆☆☆ |
+| [代理模式 Proxy Pattern](./结构型模式/代理模式) | ★★★☆☆ | ★★★★☆ |
+
+### 行为型模式
+
+| 模式名称 | 学习难度 | 使用频率 |
+| --- | --- | --- |
+| [责任链模式 Chain of Responsibility Pattern](./行为型模式/责任链模式) | ★★★☆☆ | ★★☆☆☆ |
+| [命令模式 Command Pattern](./行为型模式/命令模式) | ★★★☆☆ | ★★★★☆ |
+| [解释器模式 Interpreter Pattern](./行为型模式/解释器模式) | ★★★★★ | ★☆☆☆☆ |
+| [迭代器模式 Iterator Pattern](./行为型模式/迭代器模式) | ★★★☆☆ | ★★★★★ |
+| [中介者模式 Mediator Pattern](./行为型模式/中介者模式) | ★★★☆☆ | ★★☆☆☆ |
+| [备忘录模式 Memento Pattern](./行为型模式/备忘录模式) | ★★☆☆☆ | ★★☆☆☆ |
+| [观察者模式 Observer Pattern](./行为型模式/观察者模式) | ★★★☆☆ | ★★★★★ |
+| [状态模式 State Pattern](./行为型模式/状态模式) | ★★★☆☆ | ★★★☆☆ |
+| [策略模式 Strategy Pattern](./行为型模式/策略模式) | ★☆☆☆☆ | ★★★★☆ |
+| [模板方法模式 Template Method Pattern](./行为型模式/模板方法模式) | ★★☆☆☆ | ★★★☆☆ |
+| [访问者模式 Visitor Pattern](./行为型模式/访问者模式) | ★★★★☆ | ★☆☆☆☆ |
 
 ## 设计模式的基本原则
 
